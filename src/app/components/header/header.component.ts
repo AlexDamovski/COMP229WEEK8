@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  isLoggedIn = false;
+  showMoviesList = false;
+  username? : string;
+
+
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  logout(): void {
+    
   }
 
 }
